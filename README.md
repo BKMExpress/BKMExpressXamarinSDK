@@ -51,4 +51,3 @@ BKMExpress SDK arayüzlerinden geri haber alabilmek için **IBexPaymentListener*
 ### Örnek Eşleşme Akışı
     BexSDK.Instance.SubmitConsumer("token", this); // Kart Eşleştirme
     BexSDK.Instance.ResubmitConsumer("ticket", this); // Kart Güncelleme
->>>>>>> 603e261... v1.0.0
