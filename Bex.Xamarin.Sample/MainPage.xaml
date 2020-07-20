@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bex.Xamarin.Sample.MainPage"
+             Title="BKMExpress Xamarin Plugin">
+    <StackLayout>
+        
+        <Button Text="Ödeme Yap"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="OnPaymentButtonClicked" />
+
+        <Button Text="Kart Eşleştir"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="OnSubmitButtonClicked" />
+
+        <Button Text="Kart Değiştir"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="OnReSubmitButtonClicked" />
+
+    </StackLayout>
+</ContentPage>
