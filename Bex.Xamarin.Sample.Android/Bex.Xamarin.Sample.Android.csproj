@@ -68,6 +68,9 @@
     <PackageReference Include="Xamarin.Forms">
       <Version>5.0.0.2012</Version>
     </PackageReference>
+    <PackageReference Include="Xamarin.Kotlin.StdLib">
+      <Version>1.5.30</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -102,7 +105,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Bex.Xamarin.Sample\Bex.Xamarin.Sample.csproj">
-      <Project>{553A0512-3999-4246-9EF9-406C77DF25E0}</Project>
+      <Project>{2A7B9824-D759-4C91-8BA6-BFDFC37D5142}</Project>
       <Name>Bex.Xamarin.Sample</Name>
     </ProjectReference>
   </ItemGroup>

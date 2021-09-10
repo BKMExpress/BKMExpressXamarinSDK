@@ -20,7 +20,10 @@ Kart eşleme paketi iki farklı ortamda çalışmaktadır.
  BKM Express Xamarin Plugin kullanmak için sırası ile aşağıdaki adımlar izlenmelidir.
  
 **NOT:** Plugine şu link üzerinden ulaşabilirsiniz. https://www.nuget.org/packages/BKMExpress.Xamarin/ 
-* İlk olarak BKMExpress.Xamarin adlı plugini projenize ekleyiniz.
+
+* İlk olarak BKMExpress.Xamarin adlı pluginin son versiyonunu projenize ekleyiniz.
+
+* Eğer Android projenizin Kotlin desteği bulunmuyorsa "Xamarin.Kotlin.StdLib" paketini Android projenize ekleyiniz.
 
 * Projeye eklendikten sonra kullanılacak dosyaya aşağıdaki gibi import edilmelidir.
 
